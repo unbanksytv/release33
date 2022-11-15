@@ -6,10 +6,12 @@
     "release": "npx thirdweb@latest release"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "hardhat": "^2.12.2"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.0",
+    "@openzeppelin/contracts-upgradeable": "^4.8.0",
     "@thirdweb-dev/contracts": "^3.2.4",
     "@thirdweb-dev/sdk": "^3.5.2",
     "solmate": "^6.6.1"
